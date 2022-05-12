@@ -1,0 +1,96 @@
+body{
+    background: url("/img/bg.webp") no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(247, 247, 249);
+}
+.header{
+   
+    background-color: #ff392994;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+   
+
+}
+.main{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+
+}
+#tasks{
+    padding: 20px 0;
+}
+#list{
+    flex: 5;
+    /* background-color: azure; */
+    min-height: calc(100vh - 89px);
+    margin-right: 10px;
+    position: relative;
+}
+#btnClick{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#form{
+    flex: 2;
+    background-color: rgba(232, 235, 234,0.3);
+    min-height: calc(100vh - 89px);
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  
+}
+#form .control{
+    margin-bottom: 12px;
+}
+.iImportant{
+    font-size: 32px;
+    cursor: pointer;
+}
+.fas{
+    color:red
+}
+.far{
+    color: gray;
+}
+.task-content{
+    display: flex;
+    flex-direction: row;
+}
+.task-content {
+    margin: 2rem 0;
+}
+
+.task-content thead {  
+    color: White;
+       font-weight: 700;
+}
+
+.task-content th {
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 5px ;
+    font-size: 16px;
+}
+
+.task-content td {
+    padding: 5px 10px;
+  
+}
+
+.task-content tr:nth-child(even) {
+    background-color: #88dfdf8a;
+}
+table tr{
+    color: white;
+    border-radius: 5px;
+    margin-top:5px;
+}
+.item{
+margin-top: 5px;
+}
+
